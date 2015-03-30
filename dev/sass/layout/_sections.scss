@@ -1,0 +1,19 @@
+.section{
+  &-main{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    @include display-flex;
+    @include justify-content(center);
+    @include align-items(center);
+    .content{
+      width: 100%;
+      max-width: 1140px;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}

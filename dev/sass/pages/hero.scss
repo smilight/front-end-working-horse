@@ -1,0 +1,52 @@
+.section-y-b{
+  background-image: url(../images/bg/index.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 50% auto;
+  .bg{
+    @extend %y-b-bg;
+  }
+  p{
+    clear: both;
+    margin-top: 65px;
+    display: inline-block;
+    font-weight: 300;
+    width: 100%;
+  }
+  h2{
+    font-size: 130px;
+    line-height: 95px;
+    span{
+      font-weight: 100;
+    }
+    b:not(:last-of-type){
+      display: block;
+    }
+    .date{
+      font-size: 40px;
+    }
+  }
+  .content{
+    a{
+      @extend %btn;
+      max-width: 470px;
+      border: 6px solid #111;
+      color: #111;
+      text-align: center;
+      width: 100%;
+      float: left;
+      height: 60px;
+      line-height: 53px;
+      font-size: 16px;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-top: 50px;
+      &:hover{
+        color: #FFFFFF;
+      }
+    }
+    &:after{
+    }
+  }
+}

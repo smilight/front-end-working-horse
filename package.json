@@ -1,0 +1,35 @@
+{
+  "name": "CMI_twig_templater",
+  "version": "0.0.2",
+  "description": "CMI working horse",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pershin Alexey",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-cache": "^0.2.8",
+    "gulp-compass": "^2.0.4",
+    "gulp-copy": "0.0.2",
+    "gulp-csslint": "^0.1.5",
+    "gulp-csso": "^1.0.0",
+    "gulp-htmlhint": "0.0.9",
+    "gulp-htmlmin": "^1.1.1",
+    "gulp-if": "^1.2.5",
+    "gulp-ignore": "^1.2.1",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-load-plugins": "^0.9.0",
+    "gulp-minify-inline": "^0.1.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-size": "^1.2.1",
+    "gulp-tap": "^0.1.3",
+    "gulp-twig": "^0.2.1",
+    "gulp-uncss": "^1.0.0"
+  }
+}
