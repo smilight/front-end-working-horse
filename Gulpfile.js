@@ -8,16 +8,16 @@ var gulp = require('gulp'),
         "dev_folder":'dev', // dir path end without "/"
         "dist_folder":'dist', // dir path end without "/"
         'env': 'development', // production or development
-        'sass': './dev/**/*.scss', // with file extension
+        'sass': 'dev/**/*.scss', // with file extension
         'css': './dist/css', // without file extension
-        'images': ['./dev/**/*.png', './dev/**/*.jpg', './dev/**/*.gif','!./dev/**/sprite/*','!./dev/**/sprites/*'],
+        'images': ['dev/**/*.png', 'dev/**/*.jpg', 'dev/**/*.gif','!dev/**/sprite/*','!dev/**/sprites/*'],
         'images_dest': './dist/',
-        'fonts': './dev/fonts/**',
-        'js': './dev/js/**/*.js',
-        'twig_data' :require('./locale/ru.json'),
+        'fonts': 'dev/fonts/**',
+        'js': 'dev/js/**/*.js',
+        'twig_data' : require('./locale/ru.json'),
         'twig_cache': false,
-        'twig_files':['./dev/templates/**/*.twig','./dev/pages/**/*.twig','!./dev/templates/**/_*.twig','!./dev/pages/**/_*.twig'],
-        'twig_watch':['./dev/templates/**/*.twig','./dev/pages/**/*.twig']
+        'twig_files':['dev/templates/**/*.twig','dev/pages/**/*.twig','!dev/templates/**/_*.twig','!dev/pages/**/_*.twig'],
+        'twig_watch':['dev/templates/**/*.twig','dev/pages/**/*.twig']
     },
     AUTOPREFIXER_BROWSERS = [
         'ie >= 9',
